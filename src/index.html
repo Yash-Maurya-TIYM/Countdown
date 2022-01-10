@@ -1,0 +1,39 @@
+<html>
+<head>
+<link rel="stylesheet" href="index.css" ></link>
+<script type="text/javascript" src="index.js"></script>
+</head>
+
+<body>
+
+    <div class = "userInput" >
+        <input type = "number" id = "inputHour" class = "getInput" placeholder = "Enter Hours">  </input>
+        <input type = "number" id = "inputMinute" class = "getInput" placeholder = "Enter Minutes" >  </input>
+        <input type = "number" id = "inputSecond" class = "getInput" placeholder = "Enter Seconds" >  </input>
+    </div>
+
+    <table class = "mainContainer" >
+        <tr>
+            <td class = "time" id = "hours" > 24 </td>
+            <td>:</td>
+            <td class = "time" id = "minutes" > 20 </td>
+            <td>:</td>
+            <td class = "time" id = "seconds" >  </td>
+        
+        <tr>
+            <td class = "time" id = "hourLabel" >Hours</td>
+            <td></td>
+            <td class = "time" id = "minuteLabel" >Minutes</td>
+            <td></td>
+            <td class = "time" id = "secondLabel" >Seconds</td>
+        </tr>
+        
+    </table>
+    <tr>
+         <input type = "button" value = "Set" class = "mainContainer" id = "button1" onclick="timer()" >  </input> 
+        <input type = "button" value = "Reset" id = "button2" " >  </input>
+    </tr>
+
+</body>
+
+</html>
